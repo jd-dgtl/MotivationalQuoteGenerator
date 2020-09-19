@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;;
+}
+body {
+    background-color: rgb(228, 135, 150);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note{
+    font-size: 20px;
+    color: pink;
+    padding: 5px;
+    border-top: 1px solid #93a0ac;
+}
+.quote-wrapper {
+    width: 520px;
+    height: 450px;
+    margin: 0 10px;
+}
+.quote-wrapper .quote-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.quote-wrapper .quote-heading h2 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #fff;
+}
+.quote-wrapper .quote-body {
+    width: 100%;
+    height: 225px;
+    padding: 50px 35px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.quote-wrapper .quote-body .icon-quote {
+    text-align: center;
+    font-size: 18px;
+    color: #22313F;
+    height: 48px;
+    overflow: auto;
+}
+
+.line { 
+    margin-top: 5px;
+    padding: 7px 0;
+    border-bottom: 1px solid #93a0ac;
+   
+    
+}
+.quote-wrapper .quote-body .icon-quote .icon {
+    margin-right: 5px;
+    color: pink;
+}
+.quote-wrapper .quote-body .author {
+    text-align: right;
+    margin-top: 12px;
+}
+.quote-wrapper .quote-body .quote-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding: 7px 0;
+}
+.quote-wrapper .quote-body .quote-buttons .social a {
+    font-size: 40px;
+    color: pink;
+    transition: .3s ease;
+    position: absolute;
+}
+
+.quote-wrapper .quote-body .quote-buttons .social a:hover {
+    color: #7c7f83;
+}
+.quote-wrapper .quote-body .quote-buttons .btn button {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: pink;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.quote-wrapper .quote-body .quote-buttons button:active {
+    background-color: #7c7f83;
+}
+
+/*  Scroll bar Design  */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background-color: #fcfcfc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 5px;
+}
