@@ -16,7 +16,7 @@ const quotes = [
         quote: `You are not defined by your past mistakes.`
     },
     {
-        quote: `It's never to late to get it together.`
+        quote: `It's never too late to get it together.`
     },
     {  
         quote: `Direction is so much more important than speed. Many are going nowhere fast.`
